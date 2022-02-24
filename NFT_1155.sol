@@ -26,7 +26,7 @@ contract NFT_1155 is ERC1155, Ownable {
                               //** this is functionality for the transfer of reward to single minted token id **//
        IERC20(RewardToken).transferFrom(AddressERCTokenMinter,msg.sender,5);
        emit RewardForMinting(AddressERCTokenMinter,msg.sender,5);
-                                                          //****  ****//
+                                  NFTMarket                        //****  ****//
 
     }
 
