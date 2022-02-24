@@ -1,0 +1,11 @@
+                                                                                  Contract NFT MarketPlace for 1155
+                                                                                "instruction for deploy this contract" 
+                                                                                
+1: deploy the RewardToken contract and mint the token.
+2: deploy the NFT_1155 contract and give them the address of RewardTokens contract and the address of minter. and deploy them.
+3: go to RewardToken contract and give them the address of NFT_1155 contract in approve function and approve them.  // also check the allowance is everything is working Good !!!
+4: now go to NFT_1155 and click mint function. when minting done this function give you rewardtokens. //you ca verify them from RewardToken balanceOf function !!!
+
+    *********************************************************************************************************************************************************************
+    
+5: 
